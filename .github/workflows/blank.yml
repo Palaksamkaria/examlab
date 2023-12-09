@@ -1,0 +1,289 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+          /*
+ * Student Name: Stanley Pieda (professor)
+ * Lab Professor: Stanley Pieda (professor)
+ * Due Date: The due date
+ * Description: Sample solution for Assignment 03 (21S)
+ */
+
+/*
+ * Simple class that simulates rolling a 20 sided dice.
+ */
+public class Assignment03StanleyPieda {
+
+	/*
+	 * Entry point for the application.
+	 */
+	public static void main(String[] args) {
+		int roll = 0;
+		int[] diceRolls = new int[20];
+		int totalRolls = 0;
+
+		// sample the rolls
+		for(int count = 0; count < 1000; count++) {
+		    roll = (int)(Math.random() * 20) + 1;
+		    diceRolls[roll - 1] = diceRolls[roll - 1] + 1; // crashes
+		}	
+		// run a report
+		for(int index = 0; index < diceRolls.length; index++) {
+		    System.out.printf("Count of %d is: %d%n", (index + 1), diceRolls[index]);
+		    totalRolls = totalRolls + diceRolls[index];
+		}
+		System.out.println("Total rolls were: " + totalRolls);
+		System.out.println("Program by Stanley Pieda");
+
+	}
+
+}
+/*
+ * Student Name: Stanley Pieda (professor)
+ * Lab Professor: Stanley Pieda (professor)
+ * Due Date: The due date
+ * Description: Sample solution for Assignment 03 (21S)
+ */
+
+/*
+ * Simple class that simulates rolling a 20 sided dice.
+ */
+public class Assignment03StanleyPieda {
+
+	/*
+	 * Entry point for the application.
+	 */
+	public static void main(String[] args) {
+		int roll = 0;
+		int[] diceRolls = new int[20];
+		int totalRolls = 0;
+
+		// sample the rolls
+		for(int count = 0; count < 1000; count++) {
+		    roll = (int)(Math.random() * 20) + 1;
+		    diceRolls[roll - 1] = diceRolls[roll - 1] + 1; // crashes
+		}	
+		// run a report
+		for(int index = 0; index < diceRolls.length; index++) {
+		    System.out.printf("Count of %d is: %d%n", (index + 1), diceRolls[index]);
+		    totalRolls = totalRolls + diceRolls[index];
+		}
+		System.out.println("Total rolls were: " + totalRolls);
+		System.out.println("Program by Stanley Pieda");
+
+	}
+
+}
+/*
+ * Student Name: Stanley Pieda (professor)
+ * Lab Professor: Stanley Pieda (professor)
+ * Due Date: The due date
+ * Description: Sample solution for Assignment 03 (21S)
+ */
+
+/*
+ * Simple class that simulates rolling a 20 sided dice.
+ */
+public class Assignment03StanleyPieda {
+
+	/*
+	 * Entry point for the application.
+	 */
+	public static void main(String[] args) {
+		int roll = 0;
+		int[] diceRolls = new int[20];
+		int totalRolls = 0;
+
+		// sample the rolls
+		for(int count = 0; count < 1000; count++) {
+		    roll = (int)(Math.random() * 20) + 1;
+		    diceRolls[roll - 1] = diceRolls[roll - 1] + 1; // crashes
+		}	
+		// run a report
+		for(int index = 0; index < diceRolls.length; index++) {
+		    System.out.printf("Count of %d is: %d%n", (index + 1), diceRolls[index]);
+		    totalRolls = totalRolls + diceRolls[index];
+		}
+		System.out.println("Total rolls were: " + totalRolls);
+		System.out.println("Program by Stanley Pieda");
+
+	}
+
+}
+/*
+ * Student Name: Stanley Pieda (professor)
+ * Lab Professor: Stanley Pieda (professor)
+ * Due Date: The due date
+ * Description: Sample solution for Assignment 03 (21S)
+ */
+
+/*
+ * Simple class that simulates rolling a 20 sided dice.
+ */
+public class Assignment03StanleyPieda {
+
+	/*
+	 * Entry point for the application.
+	 */
+	public static void main(String[] args) {
+		int roll = 0;
+		int[] diceRolls = new int[20];
+		int totalRolls = 0;
+
+		// sample the rolls
+		for(int count = 0; count < 1000; count++) {
+		    roll = (int)(Math.random() * 20) + 1;
+		    diceRolls[roll - 1] = diceRolls[roll - 1] + 1; // crashes
+		}	
+		// run a report
+		for(int index = 0; index < diceRolls.length; index++) {
+		    System.out.printf("Count of %d is: %d%n", (index + 1), diceRolls[index]);
+		    totalRolls = totalRolls + diceRolls[index];
+		}
+		System.out.println("Total rolls were: " + totalRolls);
+		System.out.println("Program by Stanley Pieda");
+
+	}
+
+}
+/*
+ * Student Name: Stanley Pieda (professor)
+ * Lab Professor: Stanley Pieda (professor)
+ * Due Date: The due date
+ * Description: Sample solution for Assignment 03 (21S)
+ */
+
+/*
+ * Simple class that simulates rolling a 20 sided dice.
+ */
+public class Assignment03StanleyPieda {
+
+	/*
+	 * Entry point for the application.
+	 */
+	public static void main(String[] args) {
+		int roll = 0;
+		int[] diceRolls = new int[20];
+		int totalRolls = 0;
+
+		// sample the rolls
+		for(int count = 0; count < 1000; count++) {
+		    roll = (int)(Math.random() * 20) + 1;
+		    diceRolls[roll - 1] = diceRolls[roll - 1] + 1; // crashes
+		}	
+		// run a report
+		for(int index = 0; index < diceRolls.length; index++) {
+		    System.out.printf("Count of %d is: %d%n", (index + 1), diceRolls[index]);
+		    totalRolls = totalRolls + diceRolls[index];
+		}
+		System.out.println("Total rolls were: " + totalRolls);
+		System.out.println("Program by Stanley Pieda");
+
+	}
+
+}
+/*
+ * Student Name: Stanley Pieda (professor)
+ * Lab Professor: Stanley Pieda (professor)
+ * Due Date: The due date
+ * Description: Sample solution for Assignment 03 (21S)
+ */
+
+/*
+ * Simple class that simulates rolling a 20 sided dice.
+ */
+public class Assignment03StanleyPieda {
+
+	/*
+	 * Entry point for the application.
+	 */
+	public static void main(String[] args) {
+		int roll = 0;
+		int[] diceRolls = new int[20];
+		int totalRolls = 0;
+
+		// sample the rolls
+		for(int count = 0; count < 1000; count++) {
+		    roll = (int)(Math.random() * 20) + 1;
+		    diceRolls[roll - 1] = diceRolls[roll - 1] + 1; // crashes
+		}	
+		// run a report
+		for(int index = 0; index < diceRolls.length; index++) {
+		    System.out.printf("Count of %d is: %d%n", (index + 1), diceRolls[index]);
+		    totalRolls = totalRolls + diceRolls[index];
+		}
+		System.out.println("Total rolls were: " + totalRolls);
+		System.out.println("Program by Stanley Pieda");
+
+	}
+
+}
+/*
+ * Student Name: Palak samkaria
+ * Lab Professor: Rupinder kaur
+ 
+ */
+
+/*
+ * Simple class that simulates rolling a 20 sided dice.
+ */
+public class Assignment03StanleyPieda {
+
+	/*
+	 * Entry point for the application.
+	 */
+	public static void main(String[] args) {
+		int roll = 0;
+		int[] diceRolls = new int[20];
+		int totalRolls = 0;
+
+		// sample the rolls
+		for(int count = 0; count < 1000; count++) {
+		    roll = (int)(Math.random() * 20) + 1;
+		    diceRolls[roll - 1] = diceRolls[roll - 1] + 1; // crashes
+		}	
+		// run a report
+		for(int index = 0; index < diceRolls.length; index++) {
+		    System.out.printf("Count of %d is: %d%n", (index + 1), diceRolls[index]);
+		    totalRolls = totalRolls + diceRolls[index];
+		}
+		System.out.println("Total rolls were: " + totalRolls);
+		System.out.println("Palak samkaria");
+
+	}
+
+}
+
+
